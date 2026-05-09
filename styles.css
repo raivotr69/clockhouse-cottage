@@ -543,8 +543,8 @@ a { color: inherit; text-decoration: none; }
 }
 .host-desc {
   font-family: var(--font-heading);
-  font-size: 1.15rem; color: #4A4039;
-  line-height: 1.8; font-style: italic;
+  font-size: 1.15rem; color: #2E2620;
+  line-height: 1.8; font-style: italic; font-weight: 500;
 }
 @media (max-width: 600px) {
   .host-card {
