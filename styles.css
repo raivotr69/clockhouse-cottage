@@ -949,8 +949,46 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ============================
-   DESKTOP VINE DECORATIONS
+   VINE DECORATIONS
    ============================ */
+
+/* --- Mobile vines (subtle accents) --- */
+.house-divider {
+  position: relative;
+  overflow: visible;
+}
+.house-divider::before {
+  content: '';
+  position: absolute;
+  top: -180px;
+  right: -4px;
+  width: 55px;
+  height: 400px;
+  background: url('images/vine.svg') center no-repeat;
+  background-size: 55px auto;
+  pointer-events: none;
+  opacity: 0.22;
+  transform: scaleX(-1);
+}
+
+.highlights {
+  position: relative;
+  overflow: hidden;
+}
+.highlights::before {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: -8px;
+  width: 50px;
+  height: 360px;
+  background: url('images/vine.svg') bottom center no-repeat;
+  background-size: 50px auto;
+  pointer-events: none;
+  opacity: 0.18;
+}
+
+/* --- Desktop vines (full margins) --- */
 @media (min-width: 1300px) {
   .houses {
     position: relative;
@@ -961,44 +999,49 @@ a { color: inherit; text-decoration: none; }
     content: '';
     position: absolute;
     top: 60px;
-    width: 110px;
+    width: 120px;
     height: calc(100% - 120px);
     background: url('images/vine.svg') top center repeat-y;
-    background-size: 110px 1400px;
+    background-size: 120px 1400px;
     pointer-events: none;
     z-index: 0;
-    opacity: 0.38;
+    opacity: 0.3;
   }
   .houses::before {
-    left: 10px;
+    left: 8px;
   }
   .houses::after {
-    right: 10px;
+    right: 8px;
     transform: scaleX(-1);
-    background-position-y: 400px; /* offset so left and right don't mirror exactly */
+    background-position-y: 500px;
   }
 
-  /* Vine on highlights section */
-  .highlights {
-    position: relative;
-    overflow: visible;
+  /* Bigger vine on highlights for desktop */
+  .highlights::before {
+    width: 90px;
+    height: calc(100% - 20px);
+    bottom: auto;
+    top: 10px;
+    left: 16px;
+    background-size: 90px auto;
+    opacity: 0.2;
   }
   .highlights::after {
     content: '';
     position: absolute;
     top: 20px;
-    right: 24px;
+    right: 20px;
     width: 80px;
     height: calc(100% - 40px);
     background: url('images/vine.svg') bottom center no-repeat;
     background-size: 80px auto;
     pointer-events: none;
     z-index: 0;
-    opacity: 0.18;
+    opacity: 0.16;
     transform: scaleX(-1);
   }
 
-  /* Small vine accent on host section */
+  /* Vine on host section */
   .host-section {
     position: relative;
     overflow: visible;
@@ -1007,32 +1050,42 @@ a { color: inherit; text-decoration: none; }
     content: '';
     position: absolute;
     bottom: 20px;
-    left: 20px;
-    width: 70px;
-    height: 400px;
+    left: 16px;
+    width: 80px;
+    height: 500px;
     background: url('images/vine.svg') bottom center no-repeat;
-    background-size: 70px auto;
+    background-size: 80px auto;
     pointer-events: none;
     z-index: 0;
-    opacity: 0.2;
+    opacity: 0.18;
+  }
+
+  /* Desktop: make divider vine bigger */
+  .house-divider::before {
+    width: 80px;
+    height: 500px;
+    top: -240px;
+    right: 20px;
+    background-size: 80px auto;
+    opacity: 0.22;
   }
 }
 
-/* Slightly wider screens get bigger vines */
+/* Wider screens — larger vines */
 @media (min-width: 1500px) {
   .houses::before,
   .houses::after {
-    width: 140px;
-    background-size: 140px 1400px;
-    opacity: 0.4;
+    width: 150px;
+    background-size: 150px 1400px;
+    opacity: 0.32;
   }
-  .houses::before { left: 24px; }
-  .houses::after { right: 24px; }
+  .houses::before { left: 20px; }
+  .houses::after { right: 20px; }
 
   .highlights::after {
     width: 100px;
     background-size: 100px auto;
-    opacity: 0.22;
+    opacity: 0.2;
   }
 }
 
