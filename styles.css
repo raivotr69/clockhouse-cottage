@@ -543,7 +543,7 @@ a { color: inherit; text-decoration: none; }
 }
 .host-desc {
   font-family: var(--font-heading);
-  font-size: 1.15rem; color: var(--text-muted);
+  font-size: 1.15rem; color: #4A4039;
   line-height: 1.8; font-style: italic;
 }
 @media (max-width: 600px) {
