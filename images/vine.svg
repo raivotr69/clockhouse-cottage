@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 1400" fill="none">
+  <!-- Main vine stem - natural upward growth -->
+  <path d="M55,1400 C53,1360 65,1320 60,1280 C55,1240 68,1200 62,1160 C56,1120 67,1080 60,1040 C53,1000 68,960 62,920 C56,880 66,840 58,800 C50,760 67,720 62,680 C57,640 65,600 58,560 C51,520 66,480 60,440 C54,400 65,360 58,320 C51,280 64,240 60,200 C56,160 63,120 58,80 C53,40 58,10 60,0"
+        stroke="#4A3728" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Secondary stem/tendril winding around main -->
+  <path d="M55,1380 C60,1360 50,1340 58,1320 C66,1300 52,1280 60,1260"
+        stroke="#5D4A3A" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <path d="M62,1000 C55,980 65,960 58,940 C51,920 62,900 58,880"
+        stroke="#5D4A3A" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <path d="M58,600 C65,580 55,560 62,540 C69,520 56,500 60,480"
+        stroke="#5D4A3A" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <path d="M60,250 C55,230 63,210 58,190 C53,170 62,150 60,130"
+        stroke="#5D4A3A" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- RIGHT-SIDE BRANCHES + LEAVES -->
+  <!-- Branch y=1320 -->
+  <path d="M60,1320 C70,1312 82,1308 94,1310" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M94,1310 C102,1300 116,1298 114,1310 C112,1322 100,1318 94,1310Z" fill="#7B6C5D" opacity="0.82"/>
+  <path d="M88,1316 C92,1306 104,1308 100,1318 C96,1328 86,1322 88,1316Z" fill="#8A7C6B" opacity="0.7"/>
+
+  <!-- Branch y=1160 -->
+  <path d="M62,1160 C72,1150 86,1146 98,1148" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M98,1148 C106,1138 120,1136 118,1148 C116,1160 104,1156 98,1148Z" fill="#8A7C6B" opacity="0.82"/>
+  <path d="M92,1154 C96,1144 108,1146 104,1156 C100,1166 90,1160 92,1154Z" fill="#7B6C5D" opacity="0.72"/>
+  <path d="M84,1150 C88,1142 96,1144 94,1152 C92,1160 82,1156 84,1150Z" fill="#8A7C6B" opacity="0.6"/>
+
+  <!-- Branch y=1000 -->
+  <path d="M63,1000 C73,990 88,986 100,988" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M100,988 C108,978 120,976 118,988 C116,1000 106,996 100,988Z" fill="#7B6C5D" opacity="0.82"/>
+  <path d="M94,994 C98,984 110,986 106,996 C102,1006 92,1000 94,994Z" fill="#8A7C6B" opacity="0.7"/>
+
+  <!-- Branch y=840 -->
+  <path d="M58,840 C68,830 82,826 96,828" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M96,828 C104,818 118,816 116,828 C114,840 102,836 96,828Z" fill="#8A7C6B" opacity="0.8"/>
+  <path d="M90,834 C94,824 106,826 102,836 C98,846 88,840 90,834Z" fill="#7B6C5D" opacity="0.7"/>
+
+  <!-- Branch y=680 -->
+  <path d="M62,680 C72,670 84,666 96,668" stroke="#5A4738" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M96,668 C104,658 116,656 114,668 C112,680 102,676 96,668Z" fill="#7B6C5D" opacity="0.78"/>
+  <path d="M88,674 C92,664 104,666 100,676 C96,686 86,680 88,674Z" fill="#8A7C6B" opacity="0.68"/>
+
+  <!-- Branch y=520 -->
+  <path d="M61,520 C71,510 84,506 94,508" stroke="#5A4738" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M94,508 C102,498 114,496 112,508 C110,520 100,516 94,508Z" fill="#8A7C6B" opacity="0.76"/>
+
+  <!-- Branch y=360 -->
+  <path d="M58,360 C68,350 80,346 92,348" stroke="#5A4738" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M92,348 C100,338 112,336 110,348 C108,360 98,356 92,348Z" fill="#7B6C5D" opacity="0.74"/>
+  <path d="M86,354 C90,344 100,346 96,356 C92,366 84,360 86,354Z" fill="#8A7C6B" opacity="0.64"/>
+
+  <!-- Branch y=200 -->
+  <path d="M60,200 C68,192 78,188 88,190" stroke="#5A4738" stroke-width="1" stroke-linecap="round"/>
+  <path d="M88,190 C94,182 104,180 102,190 C100,200 92,196 88,190Z" fill="#7B6C5D" opacity="0.7"/>
+
+  <!-- Branch y=80 -->
+  <path d="M58,80 C66,72 74,68 82,70" stroke="#5A4738" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M82,70 C88,62 96,60 94,70 C92,80 86,76 82,70Z" fill="#8A7C6B" opacity="0.6"/>
+
+  <!-- LEFT-SIDE BRANCHES + LEAVES -->
+  <!-- Branch y=1240 -->
+  <path d="M57,1240 C47,1230 34,1226 22,1228" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M22,1228 C14,1218 0,1216 2,1228 C4,1240 16,1236 22,1228Z" fill="#8A7C6B" opacity="0.82"/>
+  <path d="M28,1234 C24,1224 12,1226 16,1236 C20,1246 30,1240 28,1234Z" fill="#7B6C5D" opacity="0.72"/>
+
+  <!-- Branch y=1080 -->
+  <path d="M60,1080 C50,1070 36,1066 24,1068" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M24,1068 C16,1058 2,1056 4,1068 C6,1080 18,1076 24,1068Z" fill="#7B6C5D" opacity="0.82"/>
+  <path d="M30,1074 C26,1064 14,1066 18,1076 C22,1086 32,1080 30,1074Z" fill="#8A7C6B" opacity="0.7"/>
+  <path d="M36,1070 C34,1062 26,1064 28,1072 C30,1080 38,1076 36,1070Z" fill="#7B6C5D" opacity="0.58"/>
+
+  <!-- Branch y=920 -->
+  <path d="M62,920 C52,910 38,906 26,908" stroke="#5A4738" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M26,908 C18,898 4,896 6,908 C8,920 20,916 26,908Z" fill="#8A7C6B" opacity="0.8"/>
+  <path d="M32,914 C28,904 16,906 20,916 C24,926 34,920 32,914Z" fill="#7B6C5D" opacity="0.7"/>
+
+  <!-- Branch y=760 -->
+  <path d="M56,760 C46,750 32,746 20,748" stroke="#5A4738" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M20,748 C12,738 -2,736 0,748 C2,760 14,756 20,748Z" fill="#7B6C5D" opacity="0.78"/>
+  <path d="M26,754 C22,744 10,746 14,756 C18,766 28,760 26,754Z" fill="#8A7C6B" opacity="0.68"/>
+
+  <!-- Branch y=600 -->
+  <path d="M58,600 C48,590 34,586 22,588" stroke="#5A4738" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M22,588 C14,578 2,576 4,588 C6,600 16,596 22,588Z" fill="#8A7C6B" opacity="0.76"/>
+  <path d="M28,594 C24,584 14,586 18,596 C22,606 30,600 28,594Z" fill="#7B6C5D" opacity="0.66"/>
+
+  <!-- Branch y=440 -->
+  <path d="M60,440 C50,430 38,426 28,428" stroke="#5A4738" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M28,428 C20,418 8,416 10,428 C12,440 22,436 28,428Z" fill="#7B6C5D" opacity="0.74"/>
+
+  <!-- Branch y=280 -->
+  <path d="M60,280 C50,270 38,266 28,268" stroke="#5A4738" stroke-width="1" stroke-linecap="round"/>
+  <path d="M28,268 C22,260 12,258 14,268 C16,278 24,274 28,268Z" fill="#8A7C6B" opacity="0.68"/>
+
+  <!-- Branch y=140 -->
+  <path d="M58,140 C50,132 42,128 34,130" stroke="#5A4738" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M34,130 C28,122 20,120 22,130 C24,140 30,136 34,130Z" fill="#7B6C5D" opacity="0.6"/>
+
+  <!-- SMALL LEAVES DIRECTLY ON STEM -->
+  <path d="M56,1380 C60,1370 68,1372 64,1382 C60,1392 54,1386 56,1380Z" fill="#7B6C5D" opacity="0.55"/>
+  <path d="M64,1200 C60,1190 52,1192 56,1202 C60,1212 66,1206 64,1200Z" fill="#8A7C6B" opacity="0.55"/>
+  <path d="M58,1040 C62,1030 70,1032 66,1042 C62,1052 56,1046 58,1040Z" fill="#7B6C5D" opacity="0.52"/>
+  <path d="M62,880 C58,870 50,872 54,882 C58,892 64,886 62,880Z" fill="#8A7C6B" opacity="0.52"/>
+  <path d="M56,720 C60,710 68,712 64,722 C60,732 54,726 56,720Z" fill="#7B6C5D" opacity="0.5"/>
+  <path d="M62,560 C58,550 50,552 54,562 C58,572 64,566 62,560Z" fill="#8A7C6B" opacity="0.48"/>
+  <path d="M58,400 C62,390 68,392 64,402 C60,412 56,406 58,400Z" fill="#7B6C5D" opacity="0.45"/>
+  <path d="M60,240 C56,230 50,232 54,242 C58,252 62,246 60,240Z" fill="#8A7C6B" opacity="0.42"/>
+  <path d="M58,120 C62,112 66,114 64,122 C62,130 56,126 58,120Z" fill="#7B6C5D" opacity="0.38"/>
+
+  <!-- CURLING TENDRILS -->
+  <path d="M66,1350 C72,1344 74,1336 70,1332" stroke="#5D4A3A" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M52,1180 C46,1174 44,1166 48,1162" stroke="#5D4A3A" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M66,960 C72,954 74,946 70,942" stroke="#5D4A3A" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <path d="M50,800 C44,794 42,786 46,782" stroke="#5D4A3A" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.45"/>
+  <path d="M66,640 C72,634 74,626 70,622" stroke="#5D4A3A" stroke-width="0.7" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M52,480 C46,474 44,466 48,462" stroke="#5D4A3A" stroke-width="0.7" fill="none" stroke-linecap="round" opacity="0.38"/>
+  <path d="M64,320 C70,314 72,306 68,302" stroke="#5D4A3A" stroke-width="0.7" fill="none" stroke-linecap="round" opacity="0.35"/>
+  <path d="M54,160 C48,154 46,146 50,142" stroke="#5D4A3A" stroke-width="0.6" fill="none" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- FLOWER CLUSTERS (deep rose / burgundy) -->
+  <!-- Cluster 1 — right branch y=1160 -->
+  <g>
+    <circle cx="108" cy="1148" r="5.5" fill="#B76E79" opacity="0.85"/>
+    <circle cx="115" cy="1142" r="4.5" fill="#9E5A63" opacity="0.82"/>
+    <circle cx="114" cy="1153" r="4" fill="#C4848D" opacity="0.78"/>
+    <circle cx="105" cy="1154" r="3.5" fill="#8E4F57" opacity="0.82"/>
+    <circle cx="111" cy="1158" r="3" fill="#B76E79" opacity="0.65"/>
+  </g>
+
+  <!-- Cluster 2 — left branch y=920 -->
+  <g>
+    <circle cx="18" cy="908" r="5.5" fill="#B76E79" opacity="0.85"/>
+    <circle cx="11" cy="902" r="4.5" fill="#9E5A63" opacity="0.82"/>
+    <circle cx="12" cy="914" r="4" fill="#C4848D" opacity="0.78"/>
+    <circle cx="22" cy="913" r="3.5" fill="#8E4F57" opacity="0.82"/>
+    <circle cx="7" cy="910" r="3" fill="#B76E79" opacity="0.65"/>
+  </g>
+
+  <!-- Cluster 3 — right branch y=680 -->
+  <g>
+    <circle cx="102" cy="668" r="5" fill="#B76E79" opacity="0.82"/>
+    <circle cx="108" cy="663" r="4" fill="#9E5A63" opacity="0.8"/>
+    <circle cx="107" cy="674" r="3.5" fill="#C4848D" opacity="0.75"/>
+    <circle cx="98" cy="673" r="3" fill="#8E4F57" opacity="0.78"/>
+  </g>
+
+  <!-- Cluster 4 — left branch y=440 -->
+  <g>
+    <circle cx="20" cy="428" r="5" fill="#B76E79" opacity="0.82"/>
+    <circle cx="13" cy="422" r="4" fill="#9E5A63" opacity="0.8"/>
+    <circle cx="14" cy="434" r="3.5" fill="#C4848D" opacity="0.75"/>
+    <circle cx="24" cy="433" r="3" fill="#8E4F57" opacity="0.78"/>
+  </g>
+
+  <!-- Cluster 5 — right branch y=360 (smaller) -->
+  <g>
+    <circle cx="98" cy="348" r="4" fill="#B76E79" opacity="0.78"/>
+    <circle cx="104" cy="343" r="3.5" fill="#9E5A63" opacity="0.75"/>
+    <circle cx="102" cy="353" r="3" fill="#C4848D" opacity="0.7"/>
+  </g>
+
+  <!-- Cluster 6 — left branch y=1080 -->
+  <g>
+    <circle cx="16" cy="1068" r="5" fill="#B76E79" opacity="0.82"/>
+    <circle cx="9" cy="1062" r="4.5" fill="#9E5A63" opacity="0.8"/>
+    <circle cx="10" cy="1074" r="4" fill="#C4848D" opacity="0.75"/>
+    <circle cx="20" cy="1073" r="3" fill="#8E4F57" opacity="0.78"/>
+    <circle cx="6" cy="1070" r="2.5" fill="#B76E79" opacity="0.6"/>
+  </g>
+
+  <!-- Small buds along stem -->
+  <circle cx="58" cy="1300" r="2.5" fill="#B76E79" opacity="0.5"/>
+  <circle cx="64" cy="1100" r="2.5" fill="#9E5A63" opacity="0.48"/>
+  <circle cx="56" cy="850" r="2" fill="#B76E79" opacity="0.45"/>
+  <circle cx="64" cy="580" r="2" fill="#9E5A63" opacity="0.42"/>
+  <circle cx="56" cy="300" r="2" fill="#B76E79" opacity="0.38"/>
+  <circle cx="60" cy="60" r="1.5" fill="#9E5A63" opacity="0.3"/>
+</svg>
