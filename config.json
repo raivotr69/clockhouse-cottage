@@ -30,7 +30,7 @@
       { "icon": "host", "title": "Superhost", "text": "6 years of 5-star hospitality" }
     ],
     "lv": [
-      { "icon": "hot-tub", "title": "Privāta karstā vanna", "text": "Āra karstā vanna visu gadu" },
+      { "icon": "hot-tub", "title": "Privāts kubls", "text": "Āra kubls visu gadu" },
       { "icon": "sauna", "title": "Pirts", "text": "Tradicionāla pirts, bez maksas" },
       { "icon": "beach", "title": "200 m līdz jūrai", "text": "Pāris soļu attālumā no Baltijas jūras" },
       { "icon": "star", "title": "Viesu favorīts", "text": "Augstākais vērtējums Airbnb" },
@@ -88,13 +88,13 @@
       "bedrooms": "1 guļamistaba",
       "beds": "2 gultas",
       "bathrooms": "1 vannas istaba",
-      "amenities": ["Pilnībā aprīkota virtuve", "Wi-Fi", "Darba vieta", "Bezmaksas stāvvieta", "Privāta karstā vanna — visu gadu", "Dūmu detektors", "Drošības kameras (ārējās)"],
+      "amenities": ["Pilnībā aprīkota virtuve", "Wi-Fi", "Darba vieta", "Bezmaksas stāvvieta", "Privāts kubls — visu gadu", "Dūmu detektors", "Drošības kameras (ārējās)"],
       "checkin": "Reģistrēšanās pēc plkst. 15:00",
       "checkout": "Izrakstīšanās līdz plkst. 11:00",
       "saunaTitle": "Pirts",
       "saunaText": "Atpūtieties privātajā pirtī pēc dienas pie jūras.",
-      "hotTubTitle": "Karstā vanna visu gadu",
-      "hotTubText": "Privāta āra karstā vanna pieejama katrā gadlaikā — lieliski piemērota atpūtai zem Baltijas debesīm."
+      "hotTubTitle": "Kubls visu gadu",
+      "hotTubText": "Privāts āra kubls pieejams katrā gadlaikā — lieliski piemērots atpūtai zem Baltijas debesīm."
     },
     "ru": {
       "name": "Clockhouse Garage",
