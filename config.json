@@ -1,0 +1,259 @@
+{
+  "phone": "+371 29 236 766",
+  "phoneDisplay": "+371 29 236 766",
+
+  "hero": {
+    "en": {
+      "title": "Clockhouse Cottage",
+      "location": "Saulkrasti, Latvia",
+      "tagline": "Two guest houses on the Baltic Sea coast"
+    },
+    "lv": {
+      "title": "Pulksteņmāja",
+      "location": "Saulkrasti, Latvija",
+      "tagline": "Divas viesu mājas pie Baltijas jūras"
+    },
+    "ru": {
+      "title": "Clockhouse Cottage",
+      "location": "Саулкрасты, Латвия",
+      "tagline": "Два гостевых дома на побережье Балтийского моря"
+    }
+  },
+
+  "highlights": {
+    "en": [
+      { "icon": "hot-tub", "title": "Private Hot Tub", "text": "Year-round outdoor hot tub" },
+      { "icon": "sauna", "title": "Sauna", "text": "Traditional sauna, free for guests" },
+      { "icon": "beach", "title": "200 m to Beach", "text": "Steps away from the Baltic Sea" },
+      { "icon": "star", "title": "Guest Favourite", "text": "Top-rated on Airbnb" },
+      { "icon": "parking", "title": "Free Parking", "text": "Private on-site parking" },
+      { "icon": "host", "title": "Superhost", "text": "6 years of 5-star hospitality" }
+    ],
+    "lv": [
+      { "icon": "hot-tub", "title": "Privāta karstā vanna", "text": "Āra karstā vanna visu gadu" },
+      { "icon": "sauna", "title": "Pirts", "text": "Tradicionāla pirts, bez maksas" },
+      { "icon": "beach", "title": "200 m līdz jūrai", "text": "Pāris soļu attālumā no Baltijas jūras" },
+      { "icon": "star", "title": "Viesu favorīts", "text": "Augstākais vērtējums Airbnb" },
+      { "icon": "parking", "title": "Bezmaksas stāvvieta", "text": "Privāta autostāvvieta teritorijā" },
+      { "icon": "host", "title": "Superhost", "text": "6 gadu pieredze ar 5 zvaigžņu vērtējumu" }
+    ],
+    "ru": [
+      { "icon": "hot-tub", "title": "Частная гидромассажная ванна", "text": "Круглогодичная ванна на открытом воздухе" },
+      { "icon": "sauna", "title": "Сауна", "text": "Традиционная сауна, бесплатно" },
+      { "icon": "beach", "title": "200 м до пляжа", "text": "В нескольких шагах от Балтийского моря" },
+      { "icon": "star", "title": "Любимец гостей", "text": "Высший рейтинг на Airbnb" },
+      { "icon": "parking", "title": "Бесплатная парковка", "text": "Частная парковка на территории" },
+      { "icon": "host", "title": "Суперхозяин", "text": "6 лет гостеприимства на 5 звёзд" }
+    ]
+  },
+
+  "garage": {
+    "heroImage": "images/garage/2471411d-e1fc-40f5-a438-884a4aced3ad.avif",
+    "saunaImage": "images/garage/1507c5f3-83cd-4b0b-96cf-3b050632c2a3.avif",
+    "hotTubImage": "images/garage/6d79b5f0-7a7b-44c1-b429-b91d71809a25.avif",
+    "galleryImages": [
+      "images/garage/1e6678d6-682a-4ae8-a4f3-347b41648727.avif",
+      "images/garage/23c341f2-f221-4af1-87f6-31991706d3c5.avif",
+      "images/garage/9181d5eb-372a-4b28-a1a9-19cdcbb20b28.avif",
+      "images/garage/2b3f7bf8-2e63-4bce-8221-d81596e7039f.avif",
+      "images/garage/2d79c1c0-242b-428b-8d54-fd317154b6b9.avif",
+      "images/garage/4f187ba2-0149-40e4-b46f-176e1eb7d7c0.avif",
+      "images/garage/5e1a59ef-55a8-43ba-9ac4-d8f10023a9a9.webp",
+      "images/garage/658bac8c-e50a-4dae-b56d-cc9e6905febb.avif",
+      "images/garage/788d01f6-6a29-4372-aaac-e84e7b5f25e6.avif",
+      "images/garage/db450091-8bf2-4cbe-a9bd-71b9c85b1bb2.avif",
+      "images/garage/eff208a5-5ae9-43dd-bdaf-1e9f5ffda7fc.avif"
+    ],
+    "en": {
+      "name": "Clockhouse Garage",
+      "badge": "4.93 ★ · 68 reviews · Guest Favourite",
+      "description": "Originally a garage built in the 1990s, fully renovated in 2023 into a modern guest house with a stylish atmosphere, designed for peaceful relaxation on the Baltic Sea coast.",
+      "guests": "4 guests",
+      "bedrooms": "1 bedroom",
+      "beds": "2 beds",
+      "bathrooms": "1 bathroom",
+      "amenities": ["Full kitchen", "Wi-Fi", "Dedicated workspace", "Free parking", "Private hot tub — all year", "Smoke alarm", "Security cameras (exterior)"],
+      "checkin": "Check-in after 3:00 PM",
+      "checkout": "Check-out before 11:00 AM",
+      "saunaTitle": "Sauna",
+      "saunaText": "Relax in the private sauna after a day by the sea.",
+      "hotTubTitle": "Year-Round Hot Tub",
+      "hotTubText": "A private outdoor hot tub available every season — perfect for unwinding under the Baltic sky."
+    },
+    "lv": {
+      "name": "Clockhouse Garage",
+      "badge": "4,93 ★ · 68 atsauksmes · Viesu favorīts",
+      "description": "Sākotnēji 90. gados celta garāža, 2023. gadā pilnībā pārveidota par modernu viesu māju ar stilīgu atmosfēru, kas radīta mierīgai atpūtai Baltijas jūras krastā.",
+      "guests": "4 viesi",
+      "bedrooms": "1 guļamistaba",
+      "beds": "2 gultas",
+      "bathrooms": "1 vannas istaba",
+      "amenities": ["Pilnībā aprīkota virtuve", "Wi-Fi", "Darba vieta", "Bezmaksas stāvvieta", "Privāta karstā vanna — visu gadu", "Dūmu detektors", "Drošības kameras (ārējās)"],
+      "checkin": "Reģistrēšanās pēc plkst. 15:00",
+      "checkout": "Izrakstīšanās līdz plkst. 11:00",
+      "saunaTitle": "Pirts",
+      "saunaText": "Atpūtieties privātajā pirtī pēc dienas pie jūras.",
+      "hotTubTitle": "Karstā vanna visu gadu",
+      "hotTubText": "Privāta āra karstā vanna pieejama katrā gadlaikā — lieliski piemērota atpūtai zem Baltijas debesīm."
+    },
+    "ru": {
+      "name": "Clockhouse Garage",
+      "badge": "4,93 ★ · 68 отзывов · Любимец гостей",
+      "description": "Изначально гараж, построенный в 1990-х годах, в 2023 году полностью переоборудован в современный гостевой дом со стильной атмосферой, созданный для спокойного отдыха на побережье Балтийского моря.",
+      "guests": "4 гостя",
+      "bedrooms": "1 спальня",
+      "beds": "2 кровати",
+      "bathrooms": "1 ванная комната",
+      "amenities": ["Полностью оборудованная кухня", "Wi-Fi", "Рабочее место", "Бесплатная парковка", "Частная гидромассажная ванна — круглый год", "Пожарная сигнализация", "Камеры видеонаблюдения (наружные)"],
+      "checkin": "Заезд после 15:00",
+      "checkout": "Выезд до 11:00",
+      "saunaTitle": "Сауна",
+      "saunaText": "Отдохните в частной сауне после дня на побережье.",
+      "hotTubTitle": "Гидромассажная ванна круглый год",
+      "hotTubText": "Частная гидромассажная ванна на открытом воздухе, доступная в любое время года — идеальный способ расслабиться под балтийским небом."
+    }
+  },
+
+  "renovation": {
+    "heroImage": "images/renovation/3693894e-0fec-455d-ad8e-c0eaea98432a.avif",
+    "galleryImages": [
+      "images/renovation/253244073.jpg",
+      "images/renovation/253371184.jpg",
+      "images/renovation/255109847.jpg",
+      "images/renovation/256470737.jpg",
+      "images/renovation/256471810.jpg",
+      "images/renovation/256473354.jpg",
+      "images/renovation/256478374.jpg"
+    ],
+    "en": {
+      "name": "Clockhouse Cottage",
+      "subtitle": "Pulksteņmāja",
+      "badge": "4.88 ★ · 24 reviews · Guest Favourite",
+      "description": "A 100-year-old log building that once housed a clockmaker's workshop. Carefully restored in 2020, it brings together historical charm and modern comfort — with a vine-covered terrace, free sauna, and the beach just 200 metres away.",
+      "guests": "4 guests",
+      "bedrooms": "2 bedrooms",
+      "beds": "1 queen bed + 1 mattress",
+      "bathrooms": "1 bathroom",
+      "amenities": ["Full kitchen", "Wi-Fi", "Dedicated workspace", "TV", "Free sauna", "Free parking", "Smoke detector", "Security cameras (exterior)"],
+      "checkin": "Check-in after 3:00 PM",
+      "checkout": "Check-out before 11:00 AM",
+      "heritageTitle": "A Century of History",
+      "heritageText": "The name Pulksteņmāja — literally \"Clock House\" — comes from the building's past as a clockmaker's workshop. Over a century old, this log structure was lovingly restored to preserve its heritage while adding every modern comfort.",
+      "terraceTitle": "Vine-Covered Terrace",
+      "terraceText": "Enjoy mornings on the distinctive grapevine-covered terrace — one of the most loved features among our guests."
+    },
+    "lv": {
+      "name": "Pulksteņmāja",
+      "subtitle": "",
+      "badge": "4,88 ★ · 24 atsauksmes · Viesu favorīts",
+      "description": "100 gadus veca guļbūves ēka, kurā savulaik atradās pulksteņmeistara darbnīca. Rūpīgi atjaunota 2020. gadā, tā apvieno vēsturisko šarmu ar mūsdienu komfortu — ar vīnogulāju klātu terasi, bezmaksas pirti un pludmali tikai 200 metru attālumā.",
+      "guests": "4 viesi",
+      "bedrooms": "2 guļamistabas",
+      "beds": "1 divguļamā gulta + 1 matracis",
+      "bathrooms": "1 vannas istaba",
+      "amenities": ["Pilnībā aprīkota virtuve", "Wi-Fi", "Darba vieta", "TV", "Bezmaksas pirts", "Bezmaksas stāvvieta", "Dūmu detektors", "Drošības kameras (ārējās)"],
+      "checkin": "Reģistrēšanās pēc plkst. 15:00",
+      "checkout": "Izrakstīšanās līdz plkst. 11:00",
+      "heritageTitle": "Gadsimtu sena vēsture",
+      "heritageText": "Nosaukums Pulksteņmāja cēlies no ēkas pagātnes — tā savulaik bija pulksteņmeistara darbnīca. Šī vairāk nekā gadsimtu vecā guļbūves ēka ir rūpīgi atjaunota, saglabājot tās mantojumu un nodrošinot visas mūsdienu ērtības.",
+      "terraceTitle": "Vīnogulāju klātā terase",
+      "terraceText": "Baudiet rītus uz vīnogulāju klātās terases — tā ir viena no viesu iemīļotākajām vietām."
+    },
+    "ru": {
+      "name": "Clockhouse Cottage",
+      "subtitle": "Pulksteņmāja",
+      "badge": "4,88 ★ · 24 отзыва · Любимец гостей",
+      "description": "Бревенчатый дом возрастом более 100 лет, в котором когда-то располагалась мастерская часовщика. Бережно отреставрирован в 2020 году: историческое очарование сочетается с современным комфортом — терраса, увитая виноградной лозой, бесплатная сауна и пляж всего в 200 метрах.",
+      "guests": "4 гостя",
+      "bedrooms": "2 спальни",
+      "beds": "1 двуспальная кровать + 1 матрас",
+      "bathrooms": "1 ванная комната",
+      "amenities": ["Полностью оборудованная кухня", "Wi-Fi", "Рабочее место", "Телевизор", "Бесплатная сауна", "Бесплатная парковка", "Пожарная сигнализация", "Камеры видеонаблюдения (наружные)"],
+      "checkin": "Заезд после 15:00",
+      "checkout": "Выезд до 11:00",
+      "heritageTitle": "Вековая история",
+      "heritageText": "Название Pulksteņmāja — дословно «Часовой дом» — связано с прошлым здания, когда здесь работала часовая мастерская. Этот бревенчатый дом возрастом более века был с любовью отреставрирован: его наследие сохранено, а все современные удобства добавлены.",
+      "terraceTitle": "Терраса, увитая виноградом",
+      "terraceText": "Наслаждайтесь утром на уникальной террасе, увитой виноградной лозой — одной из самых любимых особенностей среди наших гостей."
+    }
+  },
+
+  "location": {
+    "en": {
+      "title": "The Location",
+      "beach": "The beach is only 200 metres away — practically at your doorstep.",
+      "whiteDune": "Saulkrasti's famous White Dune (Baltā kāpa) is a 7-minute walk. An 18-metre sand dune with sweeping views over the Gulf of Riga.",
+      "trail": "A 4 km forest trail runs along the coast from the White Dune to the Sun Bridge (Saules tilts).",
+      "coast": "The Saulkrasti coastline stretches 17 km — from the singing sands at Lilaste to the rocky shore at Zvejniekciems."
+    },
+    "lv": {
+      "title": "Atrašanās vieta",
+      "beach": "Pludmale atrodas tikai 200 metru attālumā — praktiski pie pašām durvīm.",
+      "whiteDune": "Saulkrastu slavenā Baltā kāpa ir 7 minūšu pastaigas attālumā. 18 metru augsta smilšu kāpa ar plašu skatu pār Rīgas jūras līci.",
+      "trail": "4 km gara meža taka stiepjas gar krastu no Baltās kāpas līdz Saules tiltam.",
+      "coast": "Saulkrastu piekraste stiepjas 17 km garumā — no Lilastes dziedošajām smiltīm līdz Zvejniekciema akmeņainajam krastam."
+    },
+    "ru": {
+      "title": "Расположение",
+      "beach": "Пляж находится всего в 200 метрах — буквально у порога.",
+      "whiteDune": "Знаменитая Белая дюна Саулкрасты (Baltā kāpa) — в 7 минутах пешком. Песчаная дюна высотой 18 метров с панорамным видом на Рижский залив.",
+      "trail": "4-километровая лесная тропа тянется вдоль побережья от Белой дюны до Солнечного моста (Saules tilts).",
+      "coast": "Побережье Саулкрасты протянулось на 17 км — от поющих песков Лиласте до каменистого берега Звейниекциемса."
+    }
+  },
+
+  "host": {
+    "name": "Mareks",
+    "en": {
+      "title": "Your Host",
+      "superhost": "Superhost",
+      "experience": "6 years hosting",
+      "rating": "4.91 average rating · 92 reviews",
+      "response": "100% response rate · Replies within an hour",
+      "languages": "Speaks Latvian, English, and Russian",
+      "description": "Mareks lives in Saulkrasti and knows the area intimately. Guests consistently highlight his hospitality as the standout part of their stay."
+    },
+    "lv": {
+      "title": "Jūsu saimnieks",
+      "superhost": "Superhost",
+      "experience": "6 gadu pieredze",
+      "rating": "Vidējais vērtējums 4,91 · 92 atsauksmes",
+      "response": "100 % atbilžu rādītājs · Atbild stundu laikā",
+      "languages": "Runā latviski, angliski un krieviski",
+      "description": "Mareks dzīvo Saulkrastos un lieliski pārzina apkārtni. Viesi pastāvīgi izceļ viņa viesmīlību kā labāko uzturēšanās daļu."
+    },
+    "ru": {
+      "title": "Ваш хозяин",
+      "superhost": "Суперхозяин",
+      "experience": "6 лет опыта",
+      "rating": "Средний рейтинг 4,91 · 92 отзыва",
+      "response": "100 % ответов · Отвечает в течение часа",
+      "languages": "Говорит на латышском, английском и русском",
+      "description": "Марек живёт в Саулкрасты и прекрасно знает этот край. Гости неизменно отмечают его гостеприимство как лучшую сторону пребывания."
+    }
+  },
+
+  "nav": {
+    "en": { "houses": "Houses", "location": "Location", "host": "Your Host", "contact": "Call Us" },
+    "lv": { "houses": "Mājas", "location": "Atrašanās vieta", "host": "Saimnieks", "contact": "Zvaniet mums" },
+    "ru": { "houses": "Дома", "location": "Расположение", "host": "Хозяин", "contact": "Позвоните нам" }
+  },
+
+  "cta": {
+    "en": { "call": "Call to Book", "callSub": "Speak directly with Mareks" },
+    "lv": { "call": "Zvaniet, lai rezervētu", "callSub": "Runājiet tieši ar Mareku" },
+    "ru": { "call": "Позвоните для бронирования", "callSub": "Свяжитесь с Мареком напрямую" }
+  },
+
+  "footer": {
+    "en": { "rights": "Clockhouse Cottage Saulkrasti. All rights reserved.", "location": "Saulkrasti, Latvia" },
+    "lv": { "rights": "Pulksteņmāja Saulkrasti. Visas tiesības aizsargātas.", "location": "Saulkrasti, Latvija" },
+    "ru": { "rights": "Clockhouse Cottage Saulkrasti. Все права защищены.", "location": "Саулкрасты, Латвия" }
+  },
+
+  "labels": {
+    "en": { "included": "What's included", "gallery": "Gallery" },
+    "lv": { "included": "Kas iekļauts", "gallery": "Galerija" },
+    "ru": { "included": "Что включено", "gallery": "Галерея" }
+  }
+}

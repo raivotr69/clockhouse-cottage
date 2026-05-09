@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clockhouse Cottage Saulkrasti</title>
+  <meta name="description" content="Two unique guest houses on the Baltic Sea coast in Saulkrasti, Latvia. Private hot tub, sauna, 200m to beach.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-ornament">&loz;</span>
+        Clockhouse Cottage
+        <span class="logo-ornament">&loz;</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#houses" data-i18n="nav.houses">Houses</a>
+        <a href="#location" data-i18n="nav.location">Location</a>
+        <a href="#host" data-i18n="nav.host">Your Host</a>
+        <a href="tel:+37129236766" class="nav-cta" data-i18n="nav.contact">Call Us</a>
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-sep">·</span>
+          <button class="lang-btn" data-lang="lv">LV</button>
+          <span class="lang-sep">·</span>
+          <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+      </div>
+      <button class="nav-mobile-btn" id="mobileMenuBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-ornament">&#10045; &#10045; &#10045;</div>
+      <p class="hero-location" data-i18n="hero.location">Saulkrasti, Latvia</p>
+      <h1 class="hero-title" data-i18n="hero.title">Clockhouse Cottage</h1>
+      <div class="hero-rule"><span></span><span class="hero-rule-rose">&#10043;</span><span></span></div>
+      <p class="hero-tagline" data-i18n="hero.tagline">Two guest houses on the Baltic Sea coast</p>
+      <a href="#houses" class="hero-btn">
+        <span data-i18n="nav.houses">Houses</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HIGHLIGHTS -->
+  <section class="highlights" id="highlights">
+    <div class="container">
+      <div class="section-ornament">&#10043;</div>
+      <div class="highlights-grid" id="highlightsGrid"></div>
+    </div>
+  </section>
+
+  <!-- HOUSES -->
+  <section class="houses" id="houses">
+
+    <!-- HOUSE GARAGE -->
+    <div class="house" id="houseGarage">
+      <div class="container">
+        <div class="house-header">
+          <div class="section-ornament">&#10043;</div>
+          <h2 class="house-name" data-i18n="garage.name">Clockhouse Garage</h2>
+          <p class="house-badge" data-i18n="garage.badge">4.93 ★ · 68 reviews · Guest Favourite</p>
+        </div>
+
+        <div class="house-hero-img">
+          <img src="images/garage/2471411d-e1fc-40f5-a438-884a4aced3ad.avif" alt="Clockhouse Garage">
+        </div>
+
+        <p class="house-desc" data-i18n="garage.description">Originally a garage built in the 1990s, fully renovated in 2023 into a modern guest house with a stylish atmosphere, designed for peaceful relaxation on the Baltic Sea coast.</p>
+
+        <div class="house-details">
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="garage.guests">4 guests</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="garage.bedrooms">1 bedroom</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="garage.beds">2 beds</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="garage.bathrooms">1 bathroom</span></div>
+        </div>
+
+        <!-- FEATURED: HOT TUB & SAUNA -->
+        <div class="featured-duo">
+          <div class="featured-card">
+            <div class="featured-img">
+              <img src="images/garage/6d79b5f0-7a7b-44c1-b429-b91d71809a25.avif" alt="Private hot tub" loading="lazy">
+            </div>
+            <div class="featured-text">
+              <div class="featured-ornament">&#10043;</div>
+              <h3 data-i18n="garage.hotTubTitle">Year-Round Hot Tub</h3>
+              <p data-i18n="garage.hotTubText">A private outdoor hot tub available every season — perfect for unwinding under the Baltic sky.</p>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div class="featured-img">
+              <img src="images/garage/1507c5f3-83cd-4b0b-96cf-3b050632c2a3.avif" alt="Sauna" loading="lazy">
+            </div>
+            <div class="featured-text">
+              <div class="featured-ornament">&#10043;</div>
+              <h3 data-i18n="garage.saunaTitle">Sauna</h3>
+              <p data-i18n="garage.saunaText">Relax in the private sauna after a day by the sea.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AMENITIES -->
+        <div class="amenities-section">
+          <h3 class="amenities-title" data-i18n="labels.included">What's included</h3>
+          <ul class="amenities-list" id="garageAmenities"></ul>
+        </div>
+
+        <!-- CHECK-IN/OUT -->
+        <div class="logistics">
+          <div class="logistics-item">
+            <span class="logistics-dot"></span>
+            <span data-i18n="garage.checkin">Check-in after 3:00 PM</span>
+          </div>
+          <div class="logistics-item">
+            <span class="logistics-dot"></span>
+            <span data-i18n="garage.checkout">Check-out before 11:00 AM</span>
+          </div>
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery">
+          <h3 class="gallery-title" data-i18n="labels.gallery">Gallery</h3>
+          <div class="gallery-grid" id="garageGallery"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="house-divider">
+      <span></span><span class="divider-rose">&#10043;</span><span></span>
+    </div>
+
+    <!-- HOUSE RENOVATION -->
+    <div class="house" id="houseRenovation">
+      <div class="container">
+        <div class="house-header">
+          <div class="section-ornament">&#10043;</div>
+          <h2 class="house-name" data-i18n="renovation.name">Clockhouse Cottage</h2>
+          <p class="house-subtitle" data-i18n="renovation.subtitle">Pulksteņmāja</p>
+          <p class="house-badge" data-i18n="renovation.badge">4.88 ★ · 24 reviews · Guest Favourite</p>
+        </div>
+
+        <div class="house-hero-img">
+          <img src="images/renovation/3693894e-0fec-455d-ad8e-c0eaea98432a.avif" alt="Clockhouse Cottage">
+        </div>
+
+        <p class="house-desc" data-i18n="renovation.description">A 100-year-old log building that once housed a clockmaker's workshop. Carefully restored in 2020, it brings together historical charm and modern comfort.</p>
+
+        <div class="house-details">
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="renovation.guests">4 guests</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="renovation.bedrooms">2 bedrooms</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="renovation.beds">1 queen bed + 1 mattress</span></div>
+          <div class="detail-item"><span class="detail-dot"></span><span data-i18n="renovation.bathrooms">1 bathroom</span></div>
+        </div>
+
+        <!-- FEATURED: HERITAGE & TERRACE -->
+        <div class="featured-duo">
+          <div class="featured-card featured-card--story">
+            <div class="featured-text">
+              <div class="featured-ornament">&#10043;</div>
+              <h3 data-i18n="renovation.heritageTitle">A Century of History</h3>
+              <p data-i18n="renovation.heritageText">The name Pulksteņmāja — literally "Clock House" — comes from the building's past as a clockmaker's workshop.</p>
+            </div>
+          </div>
+          <div class="featured-card featured-card--story">
+            <div class="featured-text">
+              <div class="featured-ornament">&#10043;</div>
+              <h3 data-i18n="renovation.terraceTitle">Vine-Covered Terrace</h3>
+              <p data-i18n="renovation.terraceText">Enjoy mornings on the distinctive grapevine-covered terrace — one of the most loved features among our guests.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AMENITIES -->
+        <div class="amenities-section">
+          <h3 class="amenities-title" data-i18n="labels.included">What's included</h3>
+          <ul class="amenities-list" id="renovationAmenities"></ul>
+        </div>
+
+        <!-- CHECK-IN/OUT -->
+        <div class="logistics">
+          <div class="logistics-item">
+            <span class="logistics-dot"></span>
+            <span data-i18n="renovation.checkin">Check-in after 3:00 PM</span>
+          </div>
+          <div class="logistics-item">
+            <span class="logistics-dot"></span>
+            <span data-i18n="renovation.checkout">Check-out before 11:00 AM</span>
+          </div>
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery">
+          <h3 class="gallery-title" data-i18n="labels.gallery">Gallery</h3>
+          <div class="gallery-grid" id="renovationGallery"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location-section" id="location">
+    <div class="container">
+      <div class="section-ornament">&#10043;</div>
+      <h2 class="section-title" data-i18n="location.title">The Location</h2>
+      <div class="location-grid">
+        <div class="location-card">
+          <p data-i18n="location.beach">The beach is only 200 metres away — practically at your doorstep.</p>
+        </div>
+        <div class="location-card">
+          <p data-i18n="location.whiteDune">Saulkrasti's famous White Dune (Baltā kāpa) is a 7-minute walk.</p>
+        </div>
+        <div class="location-card">
+          <p data-i18n="location.trail">A 4 km forest trail runs along the coast from the White Dune to the Sun Bridge.</p>
+        </div>
+        <div class="location-card">
+          <p data-i18n="location.coast">The Saulkrasti coastline stretches 17 km.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOST -->
+  <section class="host-section" id="host">
+    <div class="container">
+      <div class="section-ornament">&#10043;</div>
+      <h2 class="section-title" data-i18n="host.title">Your Host</h2>
+      <div class="host-card">
+        <div class="host-avatar">M</div>
+        <div class="host-info">
+          <h3 class="host-name">Mareks</h3>
+          <span class="host-superhost" data-i18n="host.superhost">Superhost</span>
+          <div class="host-stats">
+            <p data-i18n="host.experience">6 years hosting</p>
+            <p data-i18n="host.rating">4.91 average rating · 92 reviews</p>
+            <p data-i18n="host.response">100% response rate · Replies within an hour</p>
+            <p data-i18n="host.languages">Speaks Latvian, English, and Russian</p>
+          </div>
+          <p class="host-desc" data-i18n="host.description">Mareks lives in Saulkrasti and knows the area intimately.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-ornament">&#10043; &#10043; &#10043;</div>
+      <h2 class="cta-title" data-i18n="cta.call">Call to Book</h2>
+      <p class="cta-sub" data-i18n="cta.callSub">Speak directly with Mareks</p>
+      <a href="tel:+37129236766" class="cta-phone">+371 29 236 766</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-brand">Clockhouse Cottage</p>
+      <p class="footer-location" data-i18n="footer.location">Saulkrasti, Latvia</p>
+      <div class="footer-rule"><span></span><span class="footer-rose">&#10043;</span><span></span></div>
+      <p class="footer-rights" data-i18n="footer.rights">Clockhouse Cottage Saulkrasti. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <!-- STICKY MOBILE CALL BAR -->
+  <div class="mobile-cta" id="mobileCta">
+    <a href="tel:+37129236766" class="mobile-cta-btn">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span data-i18n="nav.contact">Call Us</span>
+      <span class="mobile-cta-number">+371 29 236 766</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
